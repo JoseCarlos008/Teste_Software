@@ -1,0 +1,49 @@
+/* Estilos personalizados para a grid */
+.custom-theme .ag-header-cell {
+  background-color: #4caf50; /* Cor de fundo dos cabeçalhos */
+  color: white; /* Cor do texto dos cabeçalhos */
+  font-weight: bold;
+  border-right: 1px solid #ddd; /* Borda direita dos cabeçalhos */
+}
+
+.custom-theme .ag-header-cell::after {
+  display: none !important; /* Remover a linha de sort */
+}
+
+.custom-theme .ag-row {
+  background-color: #f9f9f9; /* Cor de fundo das linhas */
+}
+
+.custom-theme .ag-row:nth-child(even) {
+  background-color: #e0f7fa; /* Cor de fundo para linhas pares */
+}
+
+.custom-theme .ag-row:hover {
+  background-color: #80deea !important; /* Cor de fundo ao passar o mouse */
+}
+
+.custom-theme .ag-cell {
+  padding: 10px; /* Padding dentro das células */
+  border-right: 1px solid #ddd; /* Borda direita das células */
+}
+
+.custom-theme .custom-cell {
+  text-align: center; /* Centralizar texto nas células */
+}
+
+/* Estilos adicionais para melhorar a aparência */
+.custom-theme .ag-root-wrapper {
+  border: 1px solid #ddd; /* Borda ao redor da grid */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ao redor da grid */
+
+}
+
+.custom-theme .ag-header {
+  border-bottom: 2px solid #4caf50; /* Borda inferior dos cabeçalhos */
+}
+
+.custom-theme .ag-paging-panel {
+  background-color: #4caf50; /* Cor de fundo do painel de paginação */
+  color: white; /* Cor do texto do painel de paginação */
+  text-align: center
+}
